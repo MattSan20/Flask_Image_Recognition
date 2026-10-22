@@ -1,7 +1,6 @@
 # test_acceptance_happy.py
 
 from io import BytesIO
-import pytest
 
 def test_acceptance_successful_upload(client):
     """
