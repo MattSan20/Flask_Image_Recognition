@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest # Specify the OS to run the job
+    runs-on: ubuntu-24.04 # Specify the OS to run the job
 
     steps:
       - name: Checkout code
